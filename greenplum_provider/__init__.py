@@ -5,13 +5,12 @@ def get_provider_info():
     return {
         "package-name": "airflow-provider-greenplum",  # Required
         "name": "Greenplum",  # Required
-        "description": "A sample template for Apache Airflow providers.",  # Required
+        "description": "Greenplum provider for Apache Airflow.",  # Required
         "connection-types": [
             {
                 "connection-type": "greenplum",
-                "hook-class-name": "greenplum_provider.hooks.sample.GreenplumHook"
+                "hook-class-name": "greenplum_provider.hooks.greenplum_hook.GreenplumHook"
             }
         ],
-        # "extra-links": ["greenplum_provider.operators.sample.GreenplumOperatorExtraLink"],
         "versions": [__version__],  # Required
     }

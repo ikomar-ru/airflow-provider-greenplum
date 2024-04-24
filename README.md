@@ -64,10 +64,10 @@ All provider packages must adhere to the following file structure:
     │   └── test_sample_hook.py
     ├── operators
     │   ├── __init__.py
-    │   └── test_sample_operator.py
+    │   └── test_greenplum_operator.py
     └── sensors
         ├── __init__.py
-        └── test_sample_sensor.py
+        └── test_greenplum_sensor.py
 ```
 
 

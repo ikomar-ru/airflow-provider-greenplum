@@ -15,7 +15,7 @@ docs-url: https://github.com/ikomar-ru/airflow-provider-greenplum/blob/main/READ
 #
 # Within each section, the ``module`` value should be the path.to.the.module.specifically. For example, if the
 # import path for a function is `from greenplum_provider.hooks.greenplum_hook import GreenplumHook` then the value
-# should be "greenplum_provider.hooks.sample.SampleHook".
+# should be "greenplum_provider.hooks.greenplum_hook.GreenplumHook".
 
 hooks:
   - module: greenplum_provider.hooks.greenplum_hook.GreenplumHook
